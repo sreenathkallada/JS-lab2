@@ -1,0 +1,36 @@
+#details{
+    width:50%;
+    display: block;
+    margin: auto;
+    /* border: 1px solid salmon; */
+}
+input, label,button, h4{
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 3px;
+    
+    text-align: center;
+}
+input{
+    margin-bottom: 20px;
+    height: 30px;
+    width: 50%;
+}
+#error{
+    display: block;
+    text-align: center;
+    color: red;
+}
+button{
+    width: 50%;
+    height: 30px;
+    color: green;
+}
+#success{
+    color: green;
+
+}
+#failure{
+    color: red;
+}
